@@ -1,7 +1,293 @@
 <!DOCTYPE html>
-<html>
-	<body>
-		<h1>Hello World</h1>
-		<p>I'm hosted with Github Pages.</p>
-	</body>
+<html lang="en">
+  <head>
+    <title>Portfolio Page</title>
+    <meta property="og:title" content="Portfolio Page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Arial;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--dl-color-gray-textwhite);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./home.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <div data-role="Header" class="home-navbar">
+          <header data-role="Header" class="home-header">
+            <span class="Card-Heading">Portfolio</span>
+            <div class="home-social-links">
+              <a
+                href="mailto:nikivalkov@gmail.com?subject=First contact"
+                class="home-link"
+              >
+                <svg viewBox="0 0 1024 1024" class="home-icon">
+                  <path
+                    d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/nick-valkov-817794173/"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link1"
+              >
+                <svg viewBox="0 0 877.7142857142857 1024" class="home-icon2">
+                  <path
+                    d="M135.429 808h132v-396.571h-132v396.571zM276 289.143c-0.571-38.857-28.571-68.571-73.714-68.571s-74.857 29.714-74.857 68.571c0 37.714 28.571 68.571 73.143 68.571h0.571c46.286 0 74.857-30.857 74.857-68.571zM610.286 808h132v-227.429c0-121.714-65.143-178.286-152-178.286-70.857 0-102.286 39.429-119.429 66.857h1.143v-57.714h-132s1.714 37.143 0 396.571v0h132v-221.714c0-11.429 0.571-23.429 4-32 9.714-23.429 31.429-48 68-48 47.429 0 66.286 36 66.286 89.714v212zM877.714 237.714v548.571c0 90.857-73.714 164.571-164.571 164.571h-548.571c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571c90.857 0 164.571 73.714 164.571 164.571z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </header>
+        </div>
+        <div class="home-section-separator"></div>
+        <div class="home-intro">
+          <video
+            src="https://raw.githubusercontent.com/CGNick/CGNick.github.io/main/portfolio_resources/cv_background.mp4"
+            loop=""
+            autoplay=""
+            playsinline=""
+            preload="auto"
+            muted=""
+            class="home-video"
+          ></video>
+          <div class="home-hero">
+            <div class="home-hero-text-container">
+              <h1 class="home-heading Section-Heading">Nick Valkov</h1>
+              <span class="home-text01 Section-Text">
+                <span>
+                  About 2 years after getting my first PC, I had my mind made up
+                  - Video games, that’s where it’s at. I set it as my goal - One
+                  way or another, I will make video games.
+                </span>
+                <br />
+                <span>
+                  Games brought me so much fun when I was a kid, that I aspired
+                  to be able to bring that sort of joy to other people as well.
+                  And that motivation still keeps me going.
+                </span>
+                <br />
+                <span>
+                  Well, it’s been 15 years. I’ve been modding games for roughly
+                  a decade, followed by working in the game industry. I’d say so
+                  far so good.
+                </span>
+                <br />
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="home-projects">
+          <div class="home-heading-container">
+            <h2 class="Section-Heading home-text08">Projects I've worked on</h2>
+          </div>
+          <div class="home-inner">
+            <div class="home-ahproject">
+              <a
+                href="https://www.arrowheadgamestudios.com/2020/12/arrowhead-game-studios-is-working-on-a-next-generation-3rd-person-cooperative-shooter/"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link2"
+              >
+                <div class="home-image"></div>
+              </a>
+              <div class="home-text09">
+                <span class="home-heading1 Card-Heading">
+                  Arrowhead Project
+                </span>
+                <span class="home-text10 Section-Text">
+                  <span>
+                    Project: Arrowhead’s latest game, which hasn’t quite been
+                    announced yet, other than some sparse info, revealing that
+                    it’s a third person cooperative shooter.
+                  </span>
+                  <br class="Card-Text" />
+                  <br class="Card-Text" />
+                  <span>
+                    Role: Lead Gameplay Programmer - Initially started off as a
+                    Gameplay programmer in late 2019, and promoted to Lead in
+                    early 2021. While I can’t directly reveal what I’ve worked
+                    on, the general systems that I have been involved in are
+                    Combat, 3Cs, AI, UI and other systems. I’ve dipped just
+                    about every finger I can in various parts of the game, and
+                    when I ran out of fingers to dip, I started using toes.
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div class="home-ahproject1">
+              <a
+                href="https://bloodberry-games.itch.io/nova-factor"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link3"
+              >
+                <div class="home-image1"></div>
+              </a>
+              <div class="home-text15">
+                <span class="home-heading2 Card-Heading">
+                  <span>Nova Factor</span>
+                </span>
+                <span class="home-text18 Section-Text">
+                  <span>
+                    Project: Developed as a second year game project during my
+                    studies in the Gotland University. The game itself is a 1v1
+                    4D arena shooter - The game consists of 5 rounds, where
+                    after every round, you see your previous self play out the
+                    actions you took last round. Knowing how it plays out, you
+                    can manipulate previous events to get your previous selves
+                    to help you out.
+                  </span>
+                  <br class="Card-Text" />
+                  <br class="Card-Text" />
+                  <span>
+                    Role: Gameplay Programmer and Main Designer - I was one of 2
+                    programmers on this project, and I was responsible for the
+                    gameplay setup. I worked on Gunplay, UI, AI and the Timeline
+                    mechanic.
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div class="home-ahproject2">
+              <a
+                href="https://www.facebook.com/gaming/APACANprod"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link4"
+              >
+                <div class="home-image2"></div>
+              </a>
+              <div class="home-text23">
+                <span class="home-heading3 Card-Heading">Get Meckt</span>
+                <span class="home-text24 Section-Text">
+                  <span>
+                    Project: This game was made as me and my team’s first year
+                    project while studying in Gotland University. The game is a
+                    1v1 Mech Fighting game. The players select a loadout, where
+                    they choose a weapon, a support tool and an ability. The
+                    players fight it out in an arena, trying to master the
+                    controls of their Mechs, as much as it fights back.
+                  </span>
+                  <br class="Card-Text" />
+                  <br class="Card-Text" />
+                  <span>
+                    Role: Gameplay Programmer and Main Designer - I was the only
+                    programmer for this game. My responsible areas for this
+                    project were Player Movement, Combat, UI, Animations and
+                    just about anything else that’s not Art or Audio related.
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div class="home-ahproject3">
+              <a
+                href="https://www.youtube.com/user/nikicpicha/videos"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link5"
+              >
+                <div class="home-image3"></div>
+              </a>
+              <div class="home-text29">
+                <span class="home-heading4">
+                  <span class="Card-Heading">Various Mods</span>
+                  <br />
+                </span>
+                <span class="home-text32 Section-Text">
+                  <span>
+                    I’ve been modding games since roughly 5th grade (2007). I’ve
+                    spent most of my days developing numerous mods for Garry’s
+                    Mod, which varied anywhere between utility functions, fully
+                    functional HUDs and complete game overhauls. Most of my
+                    highlights were creating several HUDs from other games such
+                    as Halo (1 and 5), Payday 2, Crysis, as well as replicating
+                    games such as Halo and Call of Duty down to the guns, player
+                    movement and game feel.
+                  </span>
+                  <br class="Card-Text" />
+                  <br class="Card-Text" />
+                  <span>
+                    Other games I’ve modded involve Payday 2 and XCOM 2. The
+                    latest thing I was working on was an XCOM 2 overhaul which
+                    had 5 new classes, new buildings and reworked enemy
+                    progression.
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-section-separator1"></div>
+        <div class="home-footer-container">
+          <div class="home-footer">
+            <div class="home-social-links1">
+              <a
+                href="mailto:nikivalkov@gmail.com?subject=First contact"
+                class="home-link6"
+              >
+                <svg viewBox="0 0 1024 1024" class="home-icon4">
+                  <path
+                    d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/nick-valkov-817794173/"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-link7"
+              >
+                <svg viewBox="0 0 877.7142857142857 1024" class="home-icon6">
+                  <path
+                    d="M135.429 808h132v-396.571h-132v396.571zM276 289.143c-0.571-38.857-28.571-68.571-73.714-68.571s-74.857 29.714-74.857 68.571c0 37.714 28.571 68.571 73.143 68.571h0.571c46.286 0 74.857-30.857 74.857-68.571zM610.286 808h132v-227.429c0-121.714-65.143-178.286-152-178.286-70.857 0-102.286 39.429-119.429 66.857h1.143v-57.714h-132s1.714 37.143 0 396.571v0h132v-221.714c0-11.429 0.571-23.429 4-32 9.714-23.429 31.429-48 68-48 47.429 0 66.286 36 66.286 89.714v212zM877.714 237.714v548.571c0 90.857-73.714 164.571-164.571 164.571h-548.571c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571c90.857 0 164.571 73.714 164.571 164.571z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+  </body>
 </html>
